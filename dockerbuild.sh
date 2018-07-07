@@ -10,5 +10,5 @@ sudo docker stop web
 
 sudo docker rm web
 
-####
-sudo docker run -td -p 80:80 -v /data:/var/www/html --name=web mycentos:httpdv1.0
+#####
+sudo docker run -td -p 80:80 -v /data:/var/www/html --name=web mycentos:httpdv1i.0

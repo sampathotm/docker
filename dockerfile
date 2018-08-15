@@ -7,7 +7,7 @@ RUN yum -y install httpd
 
 EXPOSE 80
 
-VOLUME /var/www/html
+VOLUME /var/www/htm
 
 ENTRYPOINT [ "/usr/sbin/httpd" ]
-CMD ["-D", "FOREGROUND1"]
+CMD ["-D", "FOREGROUND"]

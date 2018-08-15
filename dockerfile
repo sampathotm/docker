@@ -3,7 +3,7 @@ FROM centos
 LABEL project="ITzGeek Demo image"
 LABEL maintainer "itzgeek.web@gmail.com"
 
-RUN yum -y installl 
+RUN yum -y install httpd 
 
 EXPOSE 80
 

@@ -10,4 +10,4 @@ EXPOSE 80
 VOLUME /var/www/html
 
 ENTRYPOINT [ "/usr/sbin/httpd" ]
-CMD ["-D", "FOREGROUND"]
+CMD ["-D", "FOREGROUND1"]
